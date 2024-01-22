@@ -14,7 +14,7 @@ This project is a web application for the Little Lemon restaurant, built using D
 
 To get started with this project, follow the steps below:
 
-1. Clone the repository: `git clone https://github.com/erigitangu/little-lemon-web-app.git`
+1. Clone the repository: `git clone https://github.com/ericgitangu/little-lemon-web-app.git`
 2. Change into the project directory: `cd little-lemon-web-app`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Set up the database: `python manage.py migrate`
