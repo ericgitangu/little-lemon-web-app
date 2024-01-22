@@ -15,8 +15,8 @@ This project is a web application for the Little Lemon restaurant, built using D
 To get started with this project, follow the steps below:
 
 1. Clone the repository: `git clone https://github.com/ericgitangu/little-lemon-web-app.git`
-2. Change into the project directory: `cd little-lemon-web-app`
-3. Install the required dependencies: `pip install -r requirements.txt`
+2. Install the required dependencies: `pip install -r requirements.txt` found in the project root.
+3. Change into the project directory: `cd workplace/littlelemon`
 4. Set up the database: `python manage.py migrate`
 5. (Optional) Load initial data: `python manage.py loaddata fixtures/initial_data.json`
 6. Start the development server: `python manage.py runserver`
@@ -29,12 +29,15 @@ To get started with this project, follow the steps below:
 - Book page: Make a reservation at the restaurant by selecting a date and time.
 - Menu page: Browse through the restaurant's menu items, including daily specials.
 - Menu item page: Click on a menu item to view detailed information, such as its name, description, price, and a photo.
+- (Bonus) Make sure to make a reservation and check against the reservation table if the reservation was successfully persisted.
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on GitHub. You can also fork the repository, make your changes, and submit a pull request.
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue on GitHub. You can also fork the repository, make your changes, and submit a pull request but mind you, this being part of my course
+work in my Meta Backend Specialization, I might not persue this project any further, perhaps, in the Capstone project at 
+the end of the Specialization.
 
-## Illustrations
+## Illustrations of templates (Presentation layer of the MVT Django Paradigm.)
 
 Below are some illustrations showcasing the relationships between the Django models used in this project:
 
